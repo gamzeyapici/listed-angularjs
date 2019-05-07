@@ -1,0 +1,23 @@
+{
+  "name": "listed-angularjs",
+  "description": "first npm project",
+  "main": "app.js",
+  "authors": [
+    "Gamze Yapici"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bower"
+  ],
+  "homepage": "https://github.com/worlfee/listed-angularjs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0"
+  }
+}
