@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "first npm project",
   "main": "app.js",
-  "scripts": {    
+  "scripts": {  
+    "postinstall": "bower install",
     "start":"node app.js"
   },
   "repository": {
