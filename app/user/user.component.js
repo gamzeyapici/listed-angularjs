@@ -1,8 +1,7 @@
 (function () {
     var controller = function ($scope) {
-        $scope.user = 'Uğur KARAKAYA';
-        $scope.init=function(){
-        }        
+        $scope.user = 'Home Page';
+        $scope.init=function(){}        
     }
 
     angular.module('app')
