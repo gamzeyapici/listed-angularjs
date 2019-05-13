@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Product 1",
+        "detail": "1-Lorem ipsum dolor sit amet",
+        "price": "10$",
+        "info": "This is the latest and greatest product from Derp corp."
+    },
+    {
+        "name": "Product 2",
+        "detail": "2-Lorem ipsum dolor sit amet",
+        "price": "20$",
+        "offer": "BOGOF"
+    },
+    {
+        "name": "Product 3",
+        "detail": "3-Lorem ipsum dolor sit amet",
+        "price": "30$"
+    },
+    {
+        "name": "Product 4",
+        "detail": "4-Lorem ipsum dolor sit amet",
+        "price": "40$",
+        "offer": "No srsly GTFO"
+    },
+    {
+        "name": "Product 5",
+        "detail": "5-Lorem ipsum dolor sit amet",
+        "price": "50$"
+    },
+    {
+        "name": "Product 6",
+        "detail": "6-Lorem ipsum dolor sit amet",
+        "price": "60$"
+    },
+    {
+        "name": "Product 7",
+        "detail": "7-Lorem ipsum dolor sit amet",
+        "price": "70$"
+    },
+    {
+        "name": "Product 8",
+        "detail": "8-Lorem ipsum dolor sit amet",
+        "price": "80$"
+    },
+    {
+        "name": "Product 9",
+        "detail": "9-Lorem ipsum dolor sit amet",
+        "price": "90$"
+    },
+    {
+        "name": "Product 10",
+        "detail": "10-Lorem ipsum dolor sit amet",
+        "price": "100$"
+    }
+]
