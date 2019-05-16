@@ -1,32 +1,22 @@
 (function () {
-    var controller = function ($scope, $http) {
-        $scope.home = 'Home Page';
-        // $scope.init=function(){}        
+    'use strict';
 
-        $scope.collapsed = true;
-        $scope.toggleCollapsed = function () {
-            $scope.collapsed = !$scope.collapsed;
-        };
-
-
-        getUser().then(function (response) {
-            $scope.products = response.data;
-        }).catch(function (err) {
-            debugger;
-        })
-
-        debugger;
-
-        function getUser() {
-            return $http.get("app/product.json")
+    function HomeController ($scope) {        
+        $scope.currrentUser = {
+            firstName:"home",
+            lastName:"attribute from product"
         }
-
+        $scope.currrentUser2 = {
+            firstName:"Uğur",
+            lastName:"KARAKAYA"
+        }
+        $scope.init = function () {}
     }
 
-    angular.module('app')
+    angular.module('g-app')
         .component('home', {
             templateUrl: 'app/home/home.component.html',
-            controller: controller
+            controller: HomeController
         }).config(function ($stateProvider) {
             $stateProvider.state('home', {
                 url: '/',
